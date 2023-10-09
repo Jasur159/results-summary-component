@@ -233,22 +233,3 @@ body {
   }
 
 }
-a{
-  text-align: center;
-  text-decoration: none;
-  background-image: linear-gradient( 90deg, orange, rgb(230, 198, 21), yellow, gold ,orange);
-  background-size: 400%;
-  padding: 15px 40px;
-  border-radius: 20px;
-}
-a:hover{
-  animation: colors  8s  linear infinite ;
-}
-@keyframes colors{
-  0%{
-    background-position: 0%;
-  }
-  100%{
-    background-position: 400%;
-  }
-}
