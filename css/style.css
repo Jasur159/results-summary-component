@@ -197,7 +197,9 @@ body {
   }
 }
 @media (max-width: 320px){
-
+   .left_box p:nth-child(2){
+    max-width: 100%;
+   } 
   .differ_results{
     padding: 1rem 0;
     display: flex;
